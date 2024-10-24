@@ -10,3 +10,37 @@
 .body {
   justify-content: left;
 }
+
+.parrafo {
+  justify-content: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  padding: 8px;
+  font-size: 18px;
+  color: #555;
+}
+
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px; /* Ajusta el ancho según lo necesites */
+  margin: 0 auto;
+}
+
+.parrafo {
+  text-align: center;
+  margin: 15px 0; /* Espaciado entre párrafos */
+}
+
+.descripcion {
+  column-count: 2; /* Número de columnas */
+  column-gap: 20px; /* Espacio entre columnas */
+}
